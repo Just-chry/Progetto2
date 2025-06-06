@@ -1,20 +1,22 @@
+import Image from "next/image";
+
 export default function Footer() {
     return (
-        <footer className="bg-white dark:bg-gray-900">
+        <footer className="bg-white ">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="https://flowbite.com/" className="flex items-center">
-                            <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3"
-                                 alt="FlowBite Logo"/>
+                            <Image src="/logo.png" alt="logo" width={60} height={60}/>
+
                             <span
-                                className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                                className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Card Collector</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-black">Resources</h2>
+                            <ul className="dark:text-black ">
                                 <li className="mb-4">
                                     <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>
                                 </li>
@@ -24,9 +26,9 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow
-                                us</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-black fon">Seguici
+                                </h2>
+                            <ul className="dark:text-black  ">
                                 <li className="mb-4">
 
                                     <a href="https://github.com/themesberg/flowbite"
@@ -41,8 +43,8 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-black">Legal</h2>
+                            <ul className="dark:text-black ">
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Privacy Policy</a>
                                 </li>
@@ -55,11 +57,11 @@ export default function Footer() {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
                 <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
+          <span className="text-sm text-gray-500 sm:text-center dark:text-black">© 2023 <a
               href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
           </span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
-                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-black">
                             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                  fill="currentColor" viewBox="0 0 8 19">
                                 <path fillRule="evenodd"
@@ -68,7 +70,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Facebook page</span>
                         </a>
-                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-black ms-5">
                             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                  fill="currentColor" viewBox="0 0 21 16">
                                 <path
@@ -76,7 +78,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Discord community</span>
                         </a>
-                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-black ms-5">
                             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                  fill="currentColor" viewBox="0 0 20 17">
                                 <path fillRule="evenodd"
@@ -85,7 +87,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Twitter page</span>
                         </a>
-                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-black ms-5">
                             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                  fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd"
@@ -94,7 +96,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </a>
-                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-black ms-5">
                             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                  fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd"
