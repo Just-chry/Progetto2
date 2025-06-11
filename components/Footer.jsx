@@ -33,8 +33,11 @@ export default function Footer() {
                                     <Link href="https://github.com/themesberg/flowbite"
                                        className="hover:underline ">Github</Link>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
+                                </li>
+                                <li>
+                                    <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Instagram</Link>
                                 </li>
                             </ul>
                         </div>
